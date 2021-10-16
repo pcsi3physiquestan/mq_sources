@@ -1,0 +1,6 @@
+format: jb-book
+root: mq
+
+chapters:
+  - file: notebook/dualite
+  - file: notebook/fonction_onde
