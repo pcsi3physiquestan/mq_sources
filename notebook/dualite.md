@@ -29,8 +29,7 @@ On se propose ici de faire rapidement un bilan sur les concepts d'ondes et de co
     * Atomes
     * Lumière
 ````
-````{admonition} Fondamental : A retenir... 
-:class: attention
+````{important} __Fondamental : A retenir... __
 
 On retiendra qu'en mécanique classique, les objets physiques sont soit des corpuscules, soit des ondes.
 
@@ -92,8 +91,7 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/photoelect
 ```
 
 
-````{admonition} Fondamental : Le photon
-:class: attention
+````{important} __Fondamental : Le photon__
 
 On retiendra que le modèle corpusculaire de la lumière décrit la décrit comme un ensemble de "quantas de lumière" appelée photons. Ces derniers ont les caractéristiques suivantes :
 
@@ -117,8 +115,7 @@ Depuis 1989, on a aussi réalisé des expériences d'interférences de matière 
 1. En réalité, l'énergie des électrons était de 54eV. Expliquer les causes possibles de cet écart.
 ````
 
-````{admonition} Fondamental : Dualité onde-corpuscule de la matière.
-:class: attention
+````{important} __Fondamental : Dualité onde-corpuscule de la matière.__
 
 On retiendra que d'un point de vue quantique, on peut associer un caractère corpusculaire associé à une énergie E et une quantité de mouvement $\overrightarrow{p}$ ET un caractère ondulatoire associé à une longueur d'onde $\lambda$ (ou de vecteur d'onde ) et une fréquence $f$ (ou une pulsation $\omega$). Les deux aspects de la particule sont reliées par la relation de de Broglie:
 
@@ -158,8 +155,7 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/interferen
 Nous avons évoqué le parallèle entre la mécanique classique-quantique et l'optique géométrique-ondulatoire. Ce parallèle est d'autant plus important qu'il va nous permettre de situer si les effets quantiques doivent nécessairement être pris en compte ou non. Rappelons par exemple que la loi de Dulong-Petit (approche classique) est largement valable à température ambiante. Elle ne l'est plus à basse température. Cela signifie que l'approche quantique n'est pas nécessaire à température ambiante, elle le devient à basse température.
 
 
-````{admonition} Fondamental : Crtière sur la longueur d'onde
-:class: attention
+````{important} __Fondamental : Crtière sur la longueur d'onde__
 
 Par analogie avec l'approximation de l'optique géométrique, on peut considérer que l'approche de la mécanique classique reste valable tant que les dimensions du corps considéré sont grandes devant la longueur d'onde de de Broglie associé au système.
 ````
@@ -168,8 +164,7 @@ Par analogie avec l'approximation de l'optique géométrique, on peut considére
 L'inconvénient du critère précédent est qu'il demande de comparer deux caractéristiques du corps. On peut chercher à se ramener à une comparaison avec une constante fondamentale (à l'image de la comparaison avec la célérité de la lumière pour décider d'un traitement relativiste). Ici, la constante fondamentale adaptée est __la constante de Planck__  $h$. En effet le critère sur la longueur d'onde peut se réécrire: $a >> \lambda = \frac{h}{p}$ soit $ap >> h$.
 
 
-````{admonition} Fondamental : Critère sur l'action
-:class: attention
+````{important} __Fondamental : Critère sur l'action__
 
 Le traitement classique reste valable tant que l'action caractéristique $S$ du système est grande devant la constante de Planck.
 ````

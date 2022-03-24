@@ -23,8 +23,7 @@ kernelspec:
 La description des interférences nécessite un traitement ondulatoire (quand même!). L'idée a donc été d'associer à chaque particule une fonction dont le comportement peut être associé à celui d'une onde: on y trouvera donc __possiblement__  un terme de propagation et une amplitude et donc les caractéristiques d'une onde. Mais comme on va le voir, on pourra aussi avoir une interprétation de concepts corupusculaires.
 
 
-````{admonition} Définition : Fonction d'onde
-:class: tip
+````{important} __Définition : Fonction d'onde__
 
 La connaissance de l'état d'un système donnée à un instant donné est entièrement contenu dans une fonction appelée fonction d'onde $\Psi(M,t)$. Cette fonction doit posséder les caractéristiques suivantes (entre autre):
 
@@ -45,8 +44,7 @@ Ceci constitue un énoncé remanié du premier postulat de la mécanique quantiq
 Nous avons dit que la fonction d'onde définissait complètement les caractéristiques d'un système. Il convient maintenant de remonter à des grandeurs qu'on peut interprêter à notre échelle. Il ne s'agit pas ici de présenter complètement la théorie quantique (qui nécessite notamment une bonne connaissance d'algèbre linéaire) mais de présenter un point particulier: la notion de probabilité de présence.
 
 
-````{admonition} Fondamental : Probabilité de présence
-:class: attention
+````{important} __Fondamental : Probabilité de présence__
 
 La probabilité dP de détecter une particule dans un petit volume $\delta \tau$ autour du point M à un instant t est donné par:
 
@@ -82,8 +80,7 @@ Sachant qu'on peut alors appliquer un "pseudo" principe de superposition à la f
 
 ### Fonction d'onde - Remarque
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 C'est important de ne pas confondre la fonction d'onde associé à une particule (ou plus généralement à un système) et l'amplitude complexe d'une onde classique.
 
@@ -133,8 +130,7 @@ _La quantification des états liés est fondamentale en mécanique quantique. El
 
 ### Quantification - Principe
 
-````{admonition} Fondamental : Le phénomène de quantification
-:class: attention
+````{important} __Fondamental : Le phénomène de quantification__
 
 La quantification des états de la matière correspond au caractère quantifié des états accessible, c'est-à-dire que certaines caractéristiques (énergie, moment cinétique... ) ne peuvent prendre que des valeurs discrètes.
 ````
@@ -176,8 +172,7 @@ où $E$ est l'énergie de l'état du système considéré et $\phi$ est une fonc
 
 ````
 
-````{admonition} Fondamental : A retenir
-:class: attention
+````{important} __Fondamental : A retenir__
 
 On retiendra:
 
@@ -254,8 +249,7 @@ from IPython.display import Video
 Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/puits_evolution_comparaison2.mp4?raw=true", width=640)
 ```
 
-````{admonition} Fondamental : A retenir
-:class: attention
+````{important} __Fondamental : A retenir__
 
 On retiendra:
 
@@ -267,14 +261,12 @@ On retiendra:
 
 ### Quantification - Bilan
 
-````{admonition} Fondamental : Généralisation (admise)
-:class: attention
+````{important} __Fondamental : Généralisation (admise)__
 
 Considérons un système $\Sigma$ dont l'énergie potentielle est $E_p(x)$. On admet que lorsque des état liés peuvent exister, il s'établit alors une quantification des états liés: l'énergie de ces états ne peut prendre qu'une valeur discrète. L'exemple de puits carrés finis sera vus en seconde année (PC).
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Nous parlons ici uniquement des états liés. Les états de diffusion  n'impose pas de condition de quantification.
 
@@ -306,8 +298,7 @@ On observe que l'état fondamental (de plus basse énergie) n'est PAS (comme pou
 
 ### Inégalités d'Heisenberg - Enoncé
 
-````{admonition} Fondamental : Enoncé
-:class: attention
+````{important} __Fondamental : Enoncé__
 
 Considérons un système suivant une évolution unidimensionnelle suivant un axe x. On associe sa position à une grandeur $x$ et sa quantité de mouvement àune grandeur $p_x$. L'indétermination $\Delta x$ sur la position x et l'indétermination $\Delta p_x$ sur l'impulsion $p_x$ sont reliés par la relation:
 
@@ -334,8 +325,9 @@ Ce principe signifie qu'on ne rendre ce produit arbitrairement petit: il est imp
 Le principe d'incertitude relie position et quantitié de mouvement suivant un axe particulier. Il y a la même relation entre $y$ et $p_y$ par exemple. Par contre, il n'y a pas de contrainte entre l'indétermination sur $x$ et sur $p_y$.
 ````
 
-````{admonition} Attention : Indétermination et incertitude
-:class: note
+````{attention}
+__Indétermination et incertitude__
+
 
 La notion d'indétermination est souvent rapprochée de la notion d'incertitude d'un point de vue expérimental (on parle d'ailleurs de principe d'incertitude et souvent dans nos estimations on assimilera l'indétermination à l'incertitude minimale possible) MAIS ATTENTION, ce n'est qu'une façon simplifiée de voir les choses car ce principe n'est pas simplement rattaché à l'expérience, il est beaucoup plus fondamental. D'une manière générale, il faut comprendre que la position comme la vitesse sont des observables reliées à la fonction d'onde (exemple: l'observation de la position est reliée la densité de probabilité). La fonction d'onde fluctue dans l'espace. On peut lui associer un écart-type qui quantifie ces fluctuations. Ces fluctuations sont intrinsèques au système et non reliées au principe de mesure.
 
@@ -367,8 +359,7 @@ On considère un faisceau de particules matérielles de longueur d'onde $\lambda
 
 ````
 
-````{admonition} Fondamental : A retenir
-:class: attention
+````{important} __Fondamental : A retenir__
 
 On retiendra que les inégalités d'Heisenberg permettent d'expliquer simplement plusieurs effets quantiques. Mais attention, __il ne s'agit QUE d'estimation d'ordre de grandeur car ce ne sont pas de vrais calculs des indétermination.__ 
 ````
@@ -386,8 +377,7 @@ Il est important de savoir estimer si les inégalités d'Heisenberg sont contrai
 
 ````
 
-````{admonition} Fondamental : 
-:class: attention
+````{important} __Fondamental : __
 
 L'effet du principe d'indétermination est quasi-négligeable à l'échelle macroscopique mais peuvent devenir extrêmement important à l'échelle microscopique.
 ````
@@ -415,8 +405,7 @@ E_n = \hbar \omega_0 (n + \frac{1}{2})
 
 ````
 
-````{admonition} Attention : 
-:class: note
+````{attention}
 
 Cette méthode de raisonnement est à savoir faire sur d'autres systèmes mais attention, il s'agit d'une étude en ordre de grandeur et le résultat trouvé à la fin ne pourrait être utilisé en tant que valeur minimale précise.
 ````
