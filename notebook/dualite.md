@@ -17,7 +17,7 @@ kernelspec:
 
 ## Ondes et corpuscules en mécanique classique
 
-````{admonition} Exercice 
+````{admonition} Bilan 
 :class: attention
 
 On se propose ici de faire rapidement un bilan sur les concepts d'ondes et de corpuscule en mécanique classique.
@@ -29,7 +29,7 @@ On se propose ici de faire rapidement un bilan sur les concepts d'ondes et de co
     * Atomes
     * Lumière
 ````
-````{important} __Fondamental : A retenir... __
+````{important} __A retenir...__
 
 On retiendra qu'en mécanique classique, les objets physiques sont soit des corpuscules, soit des ondes.
 
@@ -51,7 +51,7 @@ from IPython.display import Video
 Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/photoelectrique_presentation-converted.mp4?raw=true", width=640)
 ```
 
-````{admonition} Exercice 
+````{admonition} Analyse de l'expérience 
 :class: attention
 
 1. Pourquoi les électrons ne peut aller sans éclairage de l'armature négative vers l'armature positive ? Traduire cela en traçant __l'allure__  de l'énergie potentielle des électrons d'une armature à l'autre .
@@ -91,7 +91,7 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/photoelect
 ```
 
 
-````{important} __Fondamental : Le photon__
+````{important} __Le photon__
 
 On retiendra que le modèle corpusculaire de la lumière décrit la décrit comme un ensemble de "quantas de lumière" appelée photons. Ces derniers ont les caractéristiques suivantes :
 
@@ -103,7 +103,7 @@ On retiendra que le modèle corpusculaire de la lumière décrit la décrit comm
 
 ### Diffraction et interférences de la matière
 
-````{admonition} Exercice 
+````{admonition} Analyse d'expérience 
 :class: attention
 
 En 1927 Thomson de son côté et Davisson et Gerner du leur réalisent un expérience de diffraction d'un faisceau d'électrons par une fente fine ou un cristal. Depuis, des expériences de diffraction pour des atomes et molécules ont été réalisées.
@@ -115,17 +115,17 @@ Depuis 1989, on a aussi réalisé des expériences d'interférences de matière 
 1. En réalité, l'énergie des électrons était de 54eV. Expliquer les causes possibles de cet écart.
 ````
 
-````{important} __Fondamental : Dualité onde-corpuscule de la matière.__
+````{important} __Dualité onde-corpuscule de la matière.__
 
 On retiendra que d'un point de vue quantique, on peut associer un caractère corpusculaire associé à une énergie E et une quantité de mouvement $\overrightarrow{p}$ ET un caractère ondulatoire associé à une longueur d'onde $\lambda$ (ou de vecteur d'onde ) et une fréquence $f$ (ou une pulsation $\omega$). Les deux aspects de la particule sont reliées par la relation de de Broglie:
 
-\begin{equation}
+$$
 \overrightarrow{p} = \hbar \overrightarrow{k} = \frac{h}{\lambda}\overrightarrow{u}
-\end{equation}
+$$
 où $\overrightarrow{u}$ est la direction de propagation de la lumière.
 ````
 
-```{dropdown} Remarque : Longueur d'onde et masse
+```{topic} Longueur d'onde et masse
 
 Dans le cas de particules matérielles, la quantité de mouvement s'écrit $\overrightarrow{p} = m \overrightarrow{v}$ donc plus la masse est grande, plus la longueur d'onde est faible. Comme on le verra avec les critères quantiques, cela rejoint l'idée que plus le système est gros, moins le traitement quantique est nécessaire.
 ```
@@ -134,7 +134,7 @@ Dans le cas de particules matérielles, la quantité de mouvement s'écrit $\ove
 
 ### Interférences électrons à électrons.
 
-````{admonition} Exercice 
+````{admonition} Analyse de l'expérience 
 :class: attention
 
 Observer la vidéo suivante sur une expérience d'interférences électrons par électrons expliquer l'aspect dual de l'interprétation ondes-corpuscules de la matière.
@@ -151,40 +151,43 @@ Video("https://github.com/pcsi3physiquestan/videos_physique/blob/main/interferen
 
 ### Critères quantiques
 
-
+````{topic} Introduction
 Nous avons évoqué le parallèle entre la mécanique classique-quantique et l'optique géométrique-ondulatoire. Ce parallèle est d'autant plus important qu'il va nous permettre de situer si les effets quantiques doivent nécessairement être pris en compte ou non. Rappelons par exemple que la loi de Dulong-Petit (approche classique) est largement valable à température ambiante. Elle ne l'est plus à basse température. Cela signifie que l'approche quantique n'est pas nécessaire à température ambiante, elle le devient à basse température.
+````
 
-
-````{important} __Fondamental : Crtière sur la longueur d'onde__
+````{important} __Crtière sur la longueur d'onde__
 
 Par analogie avec l'approximation de l'optique géométrique, on peut considérer que l'approche de la mécanique classique reste valable tant que les dimensions du corps considéré sont grandes devant la longueur d'onde de de Broglie associé au système.
 ````
 
-
+````{topic} Inconvénient
 L'inconvénient du critère précédent est qu'il demande de comparer deux caractéristiques du corps. On peut chercher à se ramener à une comparaison avec une constante fondamentale (à l'image de la comparaison avec la célérité de la lumière pour décider d'un traitement relativiste). Ici, la constante fondamentale adaptée est __la constante de Planck__  $h$. En effet le critère sur la longueur d'onde peut se réécrire: $a >> \lambda = \frac{h}{p}$ soit $ap >> h$.
+````
 
+````{sidebar} Action d'un système
+L'action est définie (pas à connaître) comme l'intégale temporelle de l'énergie.
 
-````{important} __Fondamental : Critère sur l'action__
+Le plus important est de savoir qu'elle a la dimension d'une position multipliée par une quantitée de mouvement, soit aussi celle d'un moment cinétique.
+
+Une _action carcatéristique_ est donc une grandeur caractéristique du système possédant la même dimension.
+````
+````{important} __Critère sur l'action__
 
 Le traitement classique reste valable tant que l'action caractéristique $S$ du système est grande devant la constante de Planck.
 ````
 
-### Utilisation du critère quantique
+### Méthode - Utilisation du critère quantique
 
 ````{admonition} Exercice 
 :class: attention
 
 1. En utilisant le critère sur la longueur d'onde, expliquer pourquoi un homme qui marche ne nécessite pas un traitement quantique .
 1. En utilisant le critère sur l'action, justifier qu'une planète gravitant autour d'un Soleil ne nécessite pas un traitement quantique mais qu'un électron autour d'un noyau le nécessite.
-
-
 ````
 
-## Travaux dirigés
+## Entrainement
 
-### Ordres de grandeur
-
-````{admonition} Exercice 
+````{admonition} Ordres de grandeur 
 :class: attention
 
 1. Estimer la quantité de photons reçus par seconde par une photo-cathode de surface $S = 1 \rm{cm^{2}}$ exposée au rayonnement d'un lampe au sodium ($\lambda = 589 \rm{nm}$) ponctuelle émettant avec une puissance $P=15\rm{W}$ à une distance $d=1\rm{m}$ .
@@ -194,9 +197,7 @@ Le traitement classique reste valable tant que l'action caractéristique $S$ du 
 1. Commenter la difficulté d'obtenir une éclairement "un photon par un photon".
 ````
 
-### Pression de radiation
-
-````{admonition} Exercice 
+````{admonition} Pression de radiation 
 :class: attention
 
 Soit un faisceau monochromatique de puissance surfacique $P_S$ et de longueur d'onde $\lambda$ se réfléchissant sur un miroir parfait avec un angle $\theta$. Par un bilan de quantité de mouvement sur les photons, déterminer la pression (appelée pression de radiation) exercée par le faisceau lumineux sur le miroir. On supposera le milieu environnant assimilable au vide.
