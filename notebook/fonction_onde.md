@@ -85,7 +85,8 @@ C'est important de ne pas confondre la fonction d'onde associé à une particule
 ````{topic} Analogie mathématique
 Rappelons d'abord les caractéristiques générale d'une onde:
 
-* Elle peut se caractériser par une direction (instantanée) et une vitesse (instantanée) de propagation. __Pour simplifier, on pourra supposer une propagation rectiligne uniforme.__ * L'amplitude de l'onde peut se décomposer en somme d'ondes sinusoïdales (décomposition en série de Fourier) auxquelles on peut associer une fréquence $f$, une longueur d'onde $\lambda$ ou directement un vecteur d'onde $\overrightarrow{k} = \frac{2 \pi}{\lambda} \overrightarrow{u}$ où $\overrightarrow{u}$ est la direction de propagation .
+* Elle peut se caractériser par une direction (instantanée) et une vitesse (instantanée) de propagation. __Pour simplifier, on pourra supposer une propagation rectiligne uniforme.__
+* L'amplitude de l'onde peut se décomposer en somme d'ondes sinusoïdales (décomposition en série de Fourier) auxquelles on peut associer une fréquence $f$, une longueur d'onde $\lambda$ ou directement un vecteur d'onde $\overrightarrow{k} = \frac{2 \pi}{\lambda} \overrightarrow{u}$ où $\overrightarrow{u}$ est la direction de propagation .
 * Pour représenter une onde sinusoïdale, on peut utiliser sa représentation complexe $A(M,t) = A(M) e^{j (\omega t - \overrightarrow{k} \cdot \overrightarrow{OM})}$. Cette représentation complexe reste une représentation mathématique permettant des calculs plus aisés (notamment pour les interférence) mais le contenu physique n'est contenu QUE dans la partie réelle de cette représentation .
 * La superposition des ondes ne correspond pas nécessairement à un phénomène de propagation: citons en exemple les ondes stationnaires. On peut les décomposer en plusieurs ondes progressives mais la somme donne un effet où il n'y a plus de propagation de l'énergie.
 ````
