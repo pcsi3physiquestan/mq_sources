@@ -392,6 +392,10 @@ Cette méthode de raisonnement est à savoir faire sur d'autres systèmes mais a
 
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Inégalités d'Heisenberg._
+* _$\Longrightarrow$ Energie mécanique._
+* _$\Longrightarrow$ Moment cinétique._
 
 ### Etude de l'oscillateur harmonique
 
@@ -419,3 +423,6 @@ On s'intéresse maintenant à un oscillateur quelconque (possiblement microscopi
 ```
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Energie mécanique._
+* _$\Longrightarrow$ Oscillateur harmonique classique._

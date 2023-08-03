@@ -196,6 +196,8 @@ Le traitement classique reste valable tant que l'action caractéristique $S$ du 
     * La longueur d'onde correspondant au maximum d'émission est reliée à la température du corps noir par la loi de déplacement de Wien: $\lambda_{max} T = cste = 0.2898 \rm{K.cm}$
 1. Commenter la difficulté d'obtenir une éclairement "un photon par un photon".
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Relation de Planck-Einstein._
 
 ````{admonition} Pression de radiation 
 :class: attention
@@ -203,5 +205,8 @@ Le traitement classique reste valable tant que l'action caractéristique $S$ du 
 Soit un faisceau monochromatique de puissance surfacique $P_S$ et de longueur d'onde $\lambda$ se réfléchissant sur un miroir parfait avec un angle $\theta$. Par un bilan de quantité de mouvement sur les photons, déterminer la pression (appelée pression de radiation) exercée par le faisceau lumineux sur le miroir. On supposera le milieu environnant assimilable au vide.
 
 ````
+_Point utile pour cet exercice_
+* _$\Longrightarrow$ Relation de Planck-Einstein._
+* _$\Longrightarrow$ Pression cinétique._
 
 
