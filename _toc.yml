@@ -1,5 +1,7 @@
 format: jb-book
 root: mq
+options:
+  numbered: true
 
 chapters:
   - file: notebook/dualite

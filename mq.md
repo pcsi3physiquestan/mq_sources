@@ -14,3 +14,10 @@ kernelspec:
   name: python3
 ---
 # Mécanique quantique
+
+```{figure} ./images/qr_code/qr_mq.png
+:name: qr_mq
+:width: 150px
+:align: center
+:target: https://pcsi3physiquestan.github.io/mq/mq.html
+```

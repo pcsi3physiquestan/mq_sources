@@ -199,6 +199,8 @@ Le traitement classique reste valable tant que l'action caractéristique $S$ du 
 _Point utile pour cet exercice_
 * _$\Longrightarrow$ Relation de Planck-Einstein._
 
+
+
 ````{admonition} Pression de radiation 
 :class: attention
 
